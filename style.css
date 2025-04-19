@@ -1,4 +1,18 @@
-div {
+/* Ways to show div side by side */
+/* by  using display inline property */
+
+/* div {
   width: 30%;
   display: inline-block;
+} */
+
+/* Same can be achieved by: */
+
+.mycotainer {
+  width: 100%;
+  overflow: auto;
+}
+div {
+  width: 30%;
+  float: left;
 }
