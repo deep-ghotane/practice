@@ -8,11 +8,20 @@
 
 /* Same can be achieved by: */
 
-.mycotainer {
+/* .mycotainer {
   width: 100%;
   overflow: auto;
 }
 div {
   width: 30%;
   float: left;
+} */
+
+/* CSS Flexbox */
+
+.mycontainer {
+  display: flex;
+}
+.mycontainer > div {
+  width: 33%;
 }
